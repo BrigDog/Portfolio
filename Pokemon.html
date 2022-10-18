@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Joshua Briggs</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="images/HTML.svg"</a>
+            <a href=""><img src="images/CSS.png"</a>
+            <div class="nav-links">
+                <ul>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+        </nav>
+                <div class="video-header">
+                <h1>Pokemon</h1>
+                </div>
+                <div class="slide-container">
+                <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/Standing.png"></div>
+    <div class="swiper-slide"><img src="images/Standing2.png"></div>
+    <div class="swiper-slide"><img src="images/Selection.png"></div>
+    <div class="swiper-slide"><img src="images/Catch.png"></div>
+    <div class="swiper-slide"><img src="images/PauseMenu.png"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+                </div>
+            <div class="video-body">
+            <div class="video-text">
+                <div class="video-info">
+            <div class="video-questions">
+                <p>Game type:</p>
+                <p>Process of making the game:</p>
+                <p>Software:</p>
+                <p>Coding language:</p>
+                </div>
+                <div class="video-answers">
+                <p>2D top down world, all sprites are in a 16x16 px tilemap, this was my first game that sparked this passion.</p>
+                <p>This came as I was playing games all day, I began with a menu, and built this entire world within a couple of weeks, having fights with different Pokemon, catching them and walking alongside them.</p>
+                <p>Unity & Visual Studio</p>
+                <p>C#</p>
+                </div>
+                </div>
+            </div>
+    </section>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+            </script>
+        </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Joshua Briggs</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="images/HTML.svg"</a>
+            <a href=""><img src="images/CSS.png"</a>
+            <div class="nav-links">
+                <ul>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+        </nav>
+                <div class="video-header">
+                <h1>Woodwork</h1>
+                    <div class="video-button">
+                    <a href="documents/CV.pdf" class="hero-btn">GITHUB REPOSITORY</a>
+                    </div>
+                </div>
+                <div class="slide-container">
+                <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/Gameplay%201.png"></div>
+    <div class="swiper-slide"><img src="images/Gameplay%202.png"></div>
+    <div class="swiper-slide"><img src="images/Locked%20Customization%20Menu.png"></div>
+    <div class="swiper-slide"><img src="images/Unlocked%20Customization%20Menu.png"></div>
+    <div class="swiper-slide"><img src="images/Menu%201.png"></div>
+    <div class="swiper-slide"><img src="images/Menu%202.png"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+                </div>
+            <div class="video-body">
+            <div class="video-text">
+                <div class="video-info">
+            <div class="video-questions">
+                <p>Game type:</p>
+                <p>Process of making the game:</p>
+                <p>Software:</p>
+                <p>Coding language:</p>
+                </div>
+                <div class="video-answers">
+                <p>2D platformer, character has strict movement. Customizable skins and maps are included in the game.</p>
+                <p>The process was fairly straightforward, firstly, I came up with a small unique idea, I began creating sprites in Aseprite, then moved it all into code using SMFL libary to display the visuals.</p>
+                <p>Visual Studio & Aseprite</p>
+                <p>C++ & SMFL 2D graphics libary</p>
+                </div>
+                </div>
+            </div>
+    </section>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+            </script>
+        </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Joshua Briggs</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="images/HTML.svg"</a>
+            <a href=""><img src="images/CSS.png"</a>
+            <div class="nav-links">
+                <ul>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+        </nav>
+                <div class="video-header">
+                <h1>Nivana</h1>
+                </div>
+                <div class="slide-container">
+                <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/Idle.png"></div>
+    <div class="swiper-slide"><img src="images/Melee.png"></div>
+    <div class="swiper-slide"><img src="images/AirMelee.png"></div>
+    <div class="swiper-slide"><img src="images/Fireball.png"></div>
+    <div class="swiper-slide"><img src="images/Hanging.png"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+                </div>
+            <div class="video-body">
+            <div class="video-text">
+                <div class="video-info">
+            <div class="video-questions">
+                <p>Game type:</p>
+                <p>Process of making the game:</p>
+                <p>Software:</p>
+                <p>Coding language:</p>
+                </div>
+                <div class="video-answers">
+                <p>2D platformer, character has a vast amount of movement options, from sliding to climbing, the combat system is also quite expansive, from connecting attacks to shooting fireballs. The player must fight his way through to the end of the map, using different techniques to clear different sections.</p>
+                <p>This was a project I worked on with one other, who created the beautiful artwork you can see above, I made all the code to bring this world together.</p>
+                <p>Unity & Visual Studio</p>
+                <p>C#</p>
+                </div>
+                </div>
+            </div>
+    </section>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+            </script>
+        </body>
+</html>
