@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Joshua Briggs</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <!-- Displays all the photos in the top left -->
+            <a><img src="images/HTML.svg"</a>
+            <a><img src="images/CSS.png"</a>
+            <div class="nav-links">
+                <ul>
+                    <!-- Displays all the navigation tools -->
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+        </nav>
+                
+                <div class="video-header">
+                <h1>Conveyor Craze Burger Builder</h1>
+                </div>
+                <div class="slide-container">
+                <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/CCBB1.png"></div>
+    <div class="swiper-slide"><img src="images/CCBB2.png"></div>
+    <div class="swiper-slide"><img src="images/CCBB3.png"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+                </div>
+                <!-- Displays all the text in the bottom of the page -->
+            <div class="video-body">
+            <div class="video-text">
+                <div class="video-info">
+            <div class="video-questions">
+                <p>Game type:</p>
+                <p>Process of making the game:</p>
+                <p>Software:</p>
+                <p>Coding language:</p>
+                </div>
+                <div class="video-answers">
+                <p>2D burger maker, the burgers are placed on a converyor, the player must use the building physics to create a burger the customers order.</p>
+                <p>This was a group project done for University, this was produced over a month with a group of 6, two devs, two designers and two artists, in the end it was graded 90% and won best group game of the year.</p>
+                <p>Unity & Visual Studio</p>
+                <p>C#</p>
+                </div>
+                </div>
+            </div>
+    </section>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+            </script>
+        </body>
+</html>
