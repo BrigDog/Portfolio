@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Joshua Briggs</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <!-- Displays all the photos in the top left -->
+            <a><img src="images/HTML.svg"</a>
+            <a><img src="images/CSS.png"</a>
+            <div class="nav-links">
+                <ul>
+                    <!-- Displays all the navigation tools -->
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+        </nav>
+                
+                <div class="video-header">
+                <h1>Tokyo RC Rush</h1>
+                </div>
+                <div class="slide-container">
+                <!-- Slider main container -->
+                    <style>
+    .mp4Video {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .mp4Video video {
+      width: 60%; /* Set video to 60% of its container's width */
+      height: auto;
+      max-width: 100%; /* Ensures the video doesn't exceed the container's width */
+    }
+  </style>
+        <div class="youtubeVideo">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/QH8xKf7cs94" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+                </div>
+                <!-- Displays all the text in the bottom of the page -->
+            <div class="video-body">
+            <div class="video-text">
+                <div class="video-info">
+            <div class="video-questions">
+                <p>Game type:</p>
+                <p>Process of making the game:</p>
+                <p>Software:</p>
+                <p>Coding language:</p>
+                </div>
+                <div class="video-answers">
+                <p>3D racing simulation, with advance options for accessibility support.</p>
+                <p>This game was made for my individual project, where I spent a vast amount of time studying how people played games with disabilities, and how the game industry is currently tackling these issues, with that understanding I applied a plethora of techniques and options to allow for additional support to players within this game.</p>
+                <p>Unity & Visual Studio</p>
+                <p>C#</p>
+                </div>
+                </div>
+            </div>
+    </section>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+            </script>
+        </body>
+</html>
